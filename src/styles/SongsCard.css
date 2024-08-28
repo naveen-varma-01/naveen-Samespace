@@ -1,0 +1,47 @@
+.thumbnail{
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+    padding: 10px;
+    
+}
+
+.song-item{
+    margin: 1px;
+    display: flex;
+    color: beige;
+    cursor: pointer;
+    background-color: transparent;
+    width: Fixed (432px)px;
+    height: Hug (80px)px;
+    padding: 10px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+
+.song-details{
+    display: flex;
+    text-align: left;
+    width: 330px;
+}
+
+
+.artist-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+.song-name {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.artist {
+    font-size: 12px;
+    margin-top: 0px;
+    color: #ffffff;
+    opacity: 60%;
+}
