@@ -2,7 +2,7 @@ import { Component, createRef } from "react";
 import SongsCard from "./SongsCard";
 import "../styles/MainPage.css";
 
-process.env.REACT_APP_API_URL;
+const apiQrl =process.env.REACT_APP_API_URL;
 
 class MainPage extends Component {
   state = {
